@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>ab08adf7-042b-4ec1-bbdf-03ecff361fe0</Guid>
+    <Name>TacticalEnemyCounter</Name>
+    <Description>Tactical Enemy Counter</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>TacticalEnemyCounter</AssemblyName>
+    <RootNamespace>TacticalEnemyCounter</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\TacticalEnemyCounter\" />
+    <Folder Include="Src\TacticalEnemyCounter\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\TacticalEnemyCounter\Classes\TacticalEnemyCounter.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\TacticalEnemyCounter\Classes\X2DownloadableContentInfo_TacticalEnemyCounter.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

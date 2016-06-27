@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>ad667e21-5b1f-44e1-bda7-75a2c6b98120</Guid>
+    <Name>GrimyClassAN</Name>
+    <Description>GrimyClassAN</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>GrimyClassAN</AssemblyName>
+    <RootNamespace>GrimyClassAN</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\GrimyClassAN\" />
+    <Folder Include="Src\GrimyClassAN\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyClassAN.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyLootMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComStrategyTuning.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\GrimyClassAN_GrenadeLauncher.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\GrimyClassAN_Icons.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_AbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_BonusAbilityCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_BonusItemCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_Effect_GrenadeDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_Effect_Healing.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_GrenadeLauncher.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_GTSUnlocks.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_HeavyAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_HeavyWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_MultiTargetRadius.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_Shredder.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_SpecialistAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\GrimyClassAN_TargetCursor.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassAN\Classes\X2DownloadableContentInfo_GrimyClassAN.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

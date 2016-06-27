@@ -1,0 +1,80 @@
+;---------------------------------------------
+;---           WEAPON PREFIX NAME          ---
+;---------------------------------------------
+[GrimyLoot_Research]
+m_strRareName=희귀
+m_strEpicName=에픽
+m_strLegendaryName=전설
+
+[GrimyLoot_ScreenListener]
+m_strRareName=희귀
+m_strEpicName=에픽
+m_strLegendaryName=전설
+
++ChoiceNames="돌격 소총 생성"
++ChoiceNames="산탄총 생성"
++ChoiceNames="캐넌 생성"
++ChoiceNames="저격총 생성"
++ChoiceNames="SMG 생성"
+
++ChoiceNames="경량 방어구 생성"
++ChoiceNames="기본 방어구 생성"
++ChoiceNames="중형 방어구 생성"
+
++ChoiceNames="권총 생성"
++ChoiceNames="검 생성"
++ChoiceNames="그렘린 생성"
++ChoiceNames="유탄 발사기 생성"
++ChoiceNames="사이오닉 증폭기 생성"
+
+[GrimyLoot_ScreenListener_MCM]
+MOD_NAME="그리미(Grimy)의 전리품 모드"
+ 
+ARTIFACTS_HEADER="잠금상자 가격들"
+ARTIFACTS_TITLE1="희귀 잠금상자 가격"
+ARTIFACTS_TITLE2="에픽 금고 가격"
+ARTIFACTS_TITLE3="전설 유물함 가격"
+ARTIFACTS_DESCRIPTION="잠금상자의 암시장 보급품 가격, 적용하려면 게임을 다시 시작해야 합니다."
+ 
+UPGRADES_HEADER="업그레이드 가격들"
+UPGRADES_TITLE1="희귀 업그레이드 가격"
+UPGRADES_TITLE2="에픽 업그레이드 가격"
+UPGRADES_TITLE3="전설 업그레이드 가격"
+UPGRADES_DESCRIPTION="업그레이드의 암시장 보급품 가격, 적용하려면 게임을 다시 시작해야 합니다."
+ 
+EQUIPMENT_HEADER="장비품 가격들"
+EQUIPMENT_TITLE1="희귀 장비 가격"
+EQUIPMENT_TITLE2="에픽 장비 가격"
+EQUIPMENT_TITLE3="전설 장비 가격"
+EQUIPMENT_DESCRIPTION="장비품의 암시장 보급품 가격, 적용하려면 게임을 다시 시작해야 합니다."
+ 
+RESEARCH_HEADER="연구 시간"
+
+RESEARCH_TITLE1="희귀 연구 시간"
+RESEARCH_TITLE2="에픽 연구 시간"
+RESEARCH_TITLE3="전설 연구 시간"
+RESEARCH_DESCRIPTION="잠금상자를 여는데 걸리는 기본 시간 비용, 적용하려면 게임을 다시 시작해야 합니다."
+ 
+RESEARCH_INC_TITLE1="희귀 연구 시간 증가"
+RESEARCH_INC_TITLE2="에픽 연구 시간 증가"
+RESEARCH_INC_TITLE3="전설 연구 시간 증가"
+RESEARCH_INC_DESCRIPTION="각 프로젝트 후 증가하는 시간 비용의 크기, 적용하려면 게임을 다시 시작해야 합니다."
+ 
+ARMOR_HEADER="방어구 확율들"
+ARMOR_DESCRIPTION1="잠금상자에서 경갑옷(스파이더 / 레이쓰)이 나올 확율"
+ARMOR_DESCRIPTION2="잠금상자에서 중갑옷(E.X.O / W.A.R)이 나올 확율"
+ARMOR_TITLE1="경갑옷 확율"
+ARMOR_TITLE2="중갑옷 확율"
+ 
+UNLOCK_HEADER="장비품 확율들"
+UNLOCK_DESCRIPTION1="잠금상자에 주무기가 들어있을 확율, 방어구 이전에 확율 굴림."
+UNLOCK_DESCRIPTION2="잠금상자에 방어구가 들어있을 확율, 이 굴림도 실패하면, 보조무기를 획득하게 됩니다."
+UNLOCK_TITLE1="무기 해금 확율"
+UNLOCK_TITLE2="방어구 해금 확율"
+
+;---------------------------------------------
+;---             ENCYCLOPEDIA              ---
+;---------------------------------------------
+[GrimyLoot_ScreenListener_UIInventory_Storage]
+kToggle="백과사전 전환     "
+kCompletion="완성"

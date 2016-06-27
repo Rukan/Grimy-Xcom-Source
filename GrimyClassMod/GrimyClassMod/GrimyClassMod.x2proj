@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>cd7daf8b-b826-4f7e-bb37-cb4c7115b902</Guid>
+    <Name>GrimyClassMod</Name>
+    <Description>Grimy's Class Mod</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>GrimyClassMod</AssemblyName>
+    <RootNamespace>GrimyClassMod</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\GrimyClassMod\" />
+    <Folder Include="Src\GrimyClassMod\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyClassMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyLootMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComStrategyTuning.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\GrimyClassMod_Perk_Mark_Target.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\GrimyClassPackage.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_BruiserAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_ConditionCover.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_Cost_ActionPoints.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_EffectState.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_Effect_BonusAbilityDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_Effect_BonusItemCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_Effect_BonusWeaponDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_Effect_CoveringFire.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_EnrageActionPoints.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_GTSUnlocks.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_MarkedAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_WeaponAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\GrimyClass_WeaponUpgrades.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassMod\Classes\X2DownloadableContentInfo_GrimyClassMod.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

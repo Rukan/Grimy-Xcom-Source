@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>4d1f5935-16d4-4e6c-9d81-7ad6a24e07dc</Guid>
+    <Name>RapidReinforcements</Name>
+    <Description>RapidReinforcements</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>RapidReinforcements</AssemblyName>
+    <RootNamespace>RapidReinforcements</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\RapidReinforcements\" />
+    <Folder Include="Src\RapidReinforcements\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\RapidReinforcements\Classes\RapidReinforcements_AISpawner.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

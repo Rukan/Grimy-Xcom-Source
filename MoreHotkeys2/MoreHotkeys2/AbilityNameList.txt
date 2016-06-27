@@ -1,0 +1,28 @@
+this is a list of ability names you can use
+there are more, feel free to post on the steam workshop thread if you don't know how to look up ability names yourself
+
+stealth
+SwordSlice
+RunAndGun
+Reaper
+RapidFire
+Hack
+Evac
+Suppression
+BulletShred
+SaturationFire
+ChainShot
+Demolition
+Deadeye
+FanFire
+Faceoff
+Killzone
+InTheZone (aka serial)
+AidProtocol
+IntrusionProtocol
+HaywireProtocol
+CombatProtocol
+ScanningProtocol
+RevivalProtocol
+MedicalProtocol
+CapacitorDischarge

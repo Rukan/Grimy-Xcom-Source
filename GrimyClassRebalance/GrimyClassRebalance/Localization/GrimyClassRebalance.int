@@ -1,0 +1,49 @@
+[X2DownloadableContentInfo_GrimyClassRebalance]
+MAYHEM="Mayhem"
+
+[GrimyClassRebalance_Listener_MCM]
+MOD_NAME="Grimy Rebalance"
+
+WARNING_HEADER="Changes will not apply until you restart your game."
+
+SNEAK_HEADER="Sneak Settings"
+SNEAK_TITLE0="Enable Sneak"
+SNEAK_DESCRIPTION0="Provide the sneak ability to all soldiers"
+SNEAK_TITLE="Cooldown"
+SNEAK_DESCRIPTION="Cooldown for the Sneak Ability"
+
+FLUSH_HEADER="Flush Settings"
+FLUSH_TITLE0="Enable Flush"
+FLUSH_TITLE1="Flush Aim Bonus"
+FLUSH_TITLE2="Flush Damage Bonus"
+FLUSH_DESCRIPTION0="Gives the flush ability to eligible guns"
+FLUSH_DESCRIPTION1="Flush receives this aim bonus"
+FLUSH_DESCRIPTION2="Flush receives this damage bonus"
+
+GUNSMACK_HEADER="Gunsmack Settings"
+GUNSMACK_TITLE0="Enable Gunsmack"
+GUNSMACK_DESCRIPTION0="Provide the Gunsmack ability to all soldiers"
+GUNSMACK_TITLE1="Damage"
+GUNSMACK_DESCRIPTION1="Average damage for the Gunsmack Ability"
+GUNSMACK_TITLE2="Spread"
+GUNSMACK_DESCRIPTION1="Damage spread for the Gunsmack Ability"
+GUNSMACK_TITLE3="Stun Chance"
+GUNSMACK_DESCRIPTION1="Stun chance for the Gunsmack Ability"
+
+PSI_ABILITY_HEADER="Psi Operative Settings"
+PSI_ABILITY_TITLE="Number of Abilities Cap"
+PSI_ABILITY_DESCRIPTION="Maximum number of psi abilities a psi operative can learn"
+
+TRIAGE_HEADER="Triage Protocol Settings"
+TRIAGE_TITLE="Shield Bonus"
+TRIAGE_DESCRIPTION="Amount of shields provided by Triage Protocol"
+
+MISC_HEADER="Misc Settings"
+SUPPRESSION_TITLE="Enable Suppression"
+SUPPRESION_DESCRIPTION="Provides Suppression ability to eligible guns"
+SNIPEROVERWATCH_TITLE="Allow Sniper Overwatch After Moving"
+SNIPEROVERWATCH_DESCRIPTION="Changes sniper rifle overwatch to only cost 1 action point"
+VOLATILEMIXDOT_TITLE="Disable Volatile Mix for DoTs"
+VOLATILEMIXDOT_DESCRIPTION="Changes volatile mix to not affect burning, poison, or acid burning effects."
+TILESNAP_TITLE="Disable Tile Snapping"
+TILESNAP_DESCRIPTION="Disables tile snapping for a number of abilities"

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>b6a47652-b555-4d0e-822c-2fe4f3598634</Guid>
+    <Name>GrimyUITweaks</Name>
+    <Description>GrimyUITweaks</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>GrimyUITweaks</AssemblyName>
+    <RootNamespace>GrimyUITweaks</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\GrimyUITweaks\" />
+    <Folder Include="Src\GrimyUITweaks\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComGrimyUITweaks.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\GrimyUITweaks\Classes\GrimyMeleePreview.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyUITweaks\Classes\GrimyUITweaks.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyUITweaks\Classes\X2DownloadableContentInfo_GrimyUITweaks.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

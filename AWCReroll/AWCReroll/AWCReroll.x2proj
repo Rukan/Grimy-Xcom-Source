@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>dffff4d1-12dc-407d-9280-5b6cecb52e57</Guid>
+    <Name>AWCReroll</Name>
+    <Description>Rerolling in AWC rerolls your AWC ability in addition to regular abilities.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>AWCReroll</AssemblyName>
+    <RootNamespace>AWCReroll</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\AWCReroll\" />
+    <Folder Include="Src\AWCReroll\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\AWCReroll\Classes\AWCReroll_GameState_Respec.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\AWCReroll\Classes\X2DownloadableContentInfo_AWCReroll.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>c665432b-ab14-43c7-b26c-a496cd3bce44</Guid>
+    <Name>GrimyAttrition</Name>
+    <Description>Attrition</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>GrimyAttrition</AssemblyName>
+    <RootNamespace>GrimyAttrition</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\GrimyAttrition\" />
+    <Folder Include="Src\GrimyAttrition\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComGrimyAttrition.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyLootMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\GrimyAttritionPackage.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\GrimyAttrition.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\GrimyAttrition\Classes\GrimyAttrition_Abilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyAttrition\Classes\GrimyAttrition_AbilityCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyAttrition\Classes\GrimyAttrition_AbilityCost.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyAttrition\Classes\GrimyAttrition_BonusReserves.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyAttrition\Classes\GrimyAttrition_GameState.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyAttrition\Classes\GrimyAttrition_GTSUnlocks.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyAttrition\Classes\GrimyAttrition_TacticalHUDWeapon.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyAttrition\Classes\GrimyAttrition_TacticalListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyAttrition\Classes\GrimyAttrition_Upgrades.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyAttrition\Classes\GrimyAttrition_WeaponCondition.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyAttrition\Classes\X2DownloadableContentInfo_GrimyAttrition.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

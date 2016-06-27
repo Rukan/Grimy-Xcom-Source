@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>8e95bf17-94c9-4f41-9647-67c49fa27b57</Guid>
+    <Name>GrimyMorale</Name>
+    <Description>GrimyMorale</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>GrimyMorale</AssemblyName>
+    <RootNamespace>GrimyMorale</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\GrimyMorale\" />
+    <Folder Include="Src\GrimyMorale\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComGrimyMorale.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\GrimyMorale.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\GrimyMorale\Classes\GrimyMorale_Effect_Willpower.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyMorale\Classes\GrimyMorale_Project_SingleSoldier.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyMorale\Classes\GrimyMorale_StaffSlots.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyMorale\Classes\X2DownloadableContentInfo_GrimyMorale.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

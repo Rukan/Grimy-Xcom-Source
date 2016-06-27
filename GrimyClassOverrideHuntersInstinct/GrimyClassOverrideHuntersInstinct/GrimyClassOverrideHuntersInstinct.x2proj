@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>e76a49b8-bc65-4b4a-b4c0-4587033354f8</Guid>
+    <Name>Hunters Instinct for Swords</Name>
+    <Description>Allows Hunters Instinct to affect swords.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>GrimyClassOverrideHuntersInstinct</AssemblyName>
+    <RootNamespace>GrimyClassOverrideHuntersInstinct</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\HuntersInstinctforSwords\" />
+    <Folder Include="Src\HuntersInstinctforSwords\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Localization\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\HuntersInstinctforSwords\Classes\Grimy_Effect_HuntersInstinctDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

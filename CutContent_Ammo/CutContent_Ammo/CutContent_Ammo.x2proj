@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>9b8c5128-4811-49f7-9048-27158adc456b</Guid>
+    <Name>Cut Content: Ammo</Name>
+    <Description>This mod restores 5 ammo types that were cut from the game before release.
+
+Note: The effects of these ammo types are not necessarily what the developers intended. They left some art assets + a few tidbits of code here or there, but they were not fully implemented in the code.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>CutContent_Ammo</AssemblyName>
+    <RootNamespace>CutContent_Ammo</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\CutContentAmmo\" />
+    <Folder Include="Src\CutContentAmmo\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComCutContentAmmo.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyClassFury.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\CutContentAmmo.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\CutContentAmmo\Classes\Grimy_CutContentAmmo_Ability.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\CutContentAmmo\Classes\Grimy_Effect_FlechetteRounds.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\CutContentAmmo\Classes\Grimy_Effect_NeedleRounds.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\CutContentAmmo\Classes\Grimy_Effect_StilettoRounds.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\CutContentAmmo\Classes\Grimy_Effect_FalconRounds.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\CutContentAmmo\Classes\Grimy_CutContentAmmo_DataTemplates.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

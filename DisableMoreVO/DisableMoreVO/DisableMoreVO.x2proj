@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>d77de622-6234-4d97-b48c-ce575ce54015</Guid>
+    <Name>DisableMoreVO</Name>
+    <Description>DisableMoreVO</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>DisableMoreVO</AssemblyName>
+    <RootNamespace>DisableMoreVO</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\DisableMoreVO\" />
+    <Folder Include="Src\DisableMoreVO\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComDisableMoreVO.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\DisableMoreVO\Classes\DisableMoreVO_TacticalListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\DisableMoreVO\Classes\X2DownloadableContentInfo_DisableMoreVO.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

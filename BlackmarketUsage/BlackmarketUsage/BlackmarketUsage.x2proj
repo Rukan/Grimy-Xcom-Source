@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>74aee32f-d0f9-4ac7-aa4f-d636825e7532</Guid>
+    <Name>BlackmarketUsage</Name>
+    <Description>BlackmarketUsage</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>BlackmarketUsage</AssemblyName>
+    <RootNamespace>BlackmarketUsage</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\BlackmarketUsage\" />
+    <Folder Include="Src\BlackmarketUsage\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComBlackmarketUsage.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\BlackmarketUsage\Classes\TechTreeHelpers.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\BlackmarketUsage\Classes\UIAddToBlackmarket.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModPreview.jpg">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

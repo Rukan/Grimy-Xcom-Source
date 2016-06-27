@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>4ad9c2fa-9190-4693-839b-84efad0a1c45</Guid>
+    <Name>Cut Content: Psionics</Name>
+    <Description>Adds psionic combat sims and inventory items back into the game.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>CutContent_Psionics</AssemblyName>
+    <RootNamespace>CutContent_Psionics</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\CutContentPsionics\" />
+    <Folder Include="Src\CutContentPsionics\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComCutContentPsionics.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\CutContentPsionics\Classes\Grimy_CutContent_PsionicAbilityTemplates.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\CutContentPsionics\Classes\Grimy_CutContent_PsionicDataTemplates.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

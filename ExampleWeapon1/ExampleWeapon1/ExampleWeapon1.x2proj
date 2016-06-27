@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>fa9b04b1-c447-4ce3-b608-d6f7a7d0e648</Guid>
+    <Name>Example Weapon</Name>
+    <Description>This example mod demonstrates how to add a new weapon to XCom 2</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>ExampleWeapon</AssemblyName>
+    <RootNamespace>ExampleWeapon</RootNamespace>
+    <ProjectGuid>{3f350978-33e7-493a-993b-92c1b54bf591}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Content\WP_ModExampleWeapon_CV.upk" />
+    <Content Include="Content\ExampleWeapon_ModShaderCache.upk" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="ReadMe.txt" />
+    <Content Include="Src\ExampleWeapon\Classes\X2Item_ModExample_Weapon.uc" />
+    <Content Include="Src\ExampleWeapon\Classes\X2DownloadableContentInfo_ExampleWeapon.uc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\ExampleWeapon\" />
+    <Folder Include="Src\ExampleWeapon\Classes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

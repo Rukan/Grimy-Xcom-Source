@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>33f47241-b200-422d-93d9-20c8d8397953</Guid>
+    <Name>MoreHotkeys2</Name>
+    <Description>MoreHotkeys2</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>MoreHotkeys2</AssemblyName>
+    <RootNamespace>MoreHotkeys2</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\MoreHotkeys2\" />
+    <Folder Include="Src\MoreHotkeys2\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AbilityNameList.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComInput.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMoreHotkeys.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\MoreHotkeys2.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\MoreHotkeys2\Classes\MoreHotkeys_ItemCard.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MoreHotkeys2\Classes\MoreHotkeys_TacticalInput.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MoreHotkeys2\Classes\MoreHotkeys_TacticalListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MoreHotkeys2\Classes\X2DownloadableContentInfo_MoreHotkeys2.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

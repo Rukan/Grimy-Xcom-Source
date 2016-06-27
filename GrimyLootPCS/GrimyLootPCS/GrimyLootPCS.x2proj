@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>1f49f605-d271-4b81-b920-068a8f0a51d8</Guid>
+    <Name>GrimyLootPCS</Name>
+    <Description>GrimyLootPCS</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>GrimyLootPCS</AssemblyName>
+    <RootNamespace>GrimyLootPCS</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\GrimyLootPCS\" />
+    <Folder Include="Src\GrimyLootPCS\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyLootModPCS.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyLootPCS_ItemData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\GrimyLootPCSPackage.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\GrimyLootPCS\Classes\GrimyLootPCS_Abilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyLootPCS\Classes\GrimyLootPCS_Effect_BonusDamageCorpse.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyLootPCS\Classes\GrimyLootPCS_ItemTemplateHelper.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyLootPCS\Classes\GrimyLootPCS_Listener_ItemCard.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyLootPCS\Classes\GrimyLootPCS_Listener_LootRecovered.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyLootPCS\Classes\GrimyLootPCS_UIItemCard.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyLootPCS\Classes\GrimyLootPCS_UpgradesPCS.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyLootPCS\Classes\GrimyLootPCS_UtilityItems.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

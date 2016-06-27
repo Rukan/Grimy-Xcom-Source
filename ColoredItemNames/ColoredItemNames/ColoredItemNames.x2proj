@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>86239f8f-cdf3-454b-bfb1-6da0bd495700</Guid>
+    <Name>ColoredItemNames</Name>
+    <Description>ColoredItemNames</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>ColoredItemNames</AssemblyName>
+    <RootNamespace>ColoredItemNames</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Localization\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Localization\XComGame.int" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

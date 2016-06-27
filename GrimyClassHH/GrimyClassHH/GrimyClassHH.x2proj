@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>59e69627-ef6e-4525-ad7a-26324617bb66</Guid>
+    <Name>GrimyClassHH</Name>
+    <Description>GrimyClassHH</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>GrimyClassHH</AssemblyName>
+    <RootNamespace>GrimyClassHH</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\GrimyClassHH\" />
+    <Folder Include="Src\GrimyClassHH\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyClassHH.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyLootMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComStrategyTuning.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\GrimyClassHHPackage.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_AbilityCost_HexHunter.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_AbilityCost_Rapid.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_Condition_PointBlank.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_Effect_BonusDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_Effect_BonusExecute.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_Effect_BonusHexHunter.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_Effect_BonusPointBlank.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_Effect_BonusThunderclap.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_Effect_ShredTier.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_GTSUnlocks.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_HeadhunterAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_HeadhunterMarkedSet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_HeadhunterMeleeSet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_MultiTarget.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_TargetingMethod_RocketLauncher.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\GrimyClassHH_WeaponUpgrades.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassHH\Classes\X2DownloadableContentInfo_GrimyClassHH.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

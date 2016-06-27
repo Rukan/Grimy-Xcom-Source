@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>9208a9a6-03fb-41d8-91f3-2f415dd06f47</Guid>
+    <Name>RenameSaves</Name>
+    <Description>RenameSaves</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>RenameSaves</AssemblyName>
+    <RootNamespace>RenameSaves</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\RenameSaves\" />
+    <Folder Include="Src\RenameSaves\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\RenameSaves\Classes\Grimy_LoadListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RenameSaves\Classes\Grimy_SaveListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

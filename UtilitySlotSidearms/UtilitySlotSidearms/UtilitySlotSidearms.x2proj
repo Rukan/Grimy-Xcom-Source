@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>c9ca8b5f-6bbc-4c18-ae46-c577a5f4f3e7</Guid>
+    <Name>UtilitySlotSidearms</Name>
+    <Description>UtilitySlotSidearms</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>UtilitySlotSidearms</AssemblyName>
+    <RootNamespace>UtilitySlotSidearms</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\UtilitySlotSidearms\" />
+    <Folder Include="Src\UtilitySlotSidearms\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComUtilitySlotSidearms.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\UtilitySlotSidearms\Classes\UtilitySlotSidearms.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UtilitySlotSidearms\Classes\UtilitySlotSidearms_Abilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UtilitySlotSidearms\Classes\UtilitySlotSidearms_GrenadeLauncher.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UtilitySlotSidearms\Classes\UtilitySlotSidearms_LoadGrenades.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\UtilitySlotSidearms\Classes\X2DownloadableContentInfo_UtilitySlotSidearm.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

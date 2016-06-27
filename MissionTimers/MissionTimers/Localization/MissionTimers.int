@@ -1,0 +1,5 @@
+[MissionTimers_MCMListener]
+MOD_NAME="Mission Timer"
+OPTION_HEADER="Mission Timer Options"
+OPTION_TITLE="Turn Time"
+OPTION_DESCRIPTION="Turn time in seconds"

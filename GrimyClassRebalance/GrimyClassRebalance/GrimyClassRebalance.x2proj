@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>5241cd23-2f8c-4d7e-a687-5a3e77cfb8e7</Guid>
+    <Name>GrimyClassRebalance</Name>
+    <Description>GrimyClassRebalance</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>GrimyClassRebalance</AssemblyName>
+    <RootNamespace>GrimyClassRebalance</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\GrimyClassRebalance\" />
+    <Folder Include="Src\GrimyClassRebalance\Classes\" />
+    <Folder Include="Src\ModConfigMenuAPI" />
+    <Folder Include="Src\ModConfigMenuAPI\Classes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComAI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyClassRebalance.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComStrategyTuning.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\GrimyClassRebalance.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Helper_WeaponUpgradeTemplate.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Listener_MCM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_TargetingMethod_GremlinAOE.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_TargetingMethod_Grenade.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_TargetingMethod_MassReanimation.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_TargetingMethod_MECMicroMissile.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_TargetingMethod_MimicBeacon.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_TargetingMethod_RocketLauncher.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_TargetingMethod_ViperSpit.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_TargetingMethod_VoidRift.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Button.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Checkbox.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Dropdown.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Instance.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Label.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Setting.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_SettingsGroup.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_SettingsPage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Slider.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Spinner.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\MCM_API_CfgHelpers.uci">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\MCM_API_Includes.uci">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_AbilityCharges_Restock.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_AbilityCost_RestockCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_AbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_AbilitySet_Marked.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_AbilitySet_Ranger.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_AbilitySet_Specialist.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Condition_Distance.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Condition_Loot.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Condition_Restock.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Condition_Stealth.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_BonusTime.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_CoolPressure.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_Deadshot.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_EverVigilant.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_FlushDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_HuntersInstinct.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_RangerStealth.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_Restock.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_RestoreInjuries.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_Scamper.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_Shadowstrike.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_VolatileMix.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Effect_WillToFight.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\GrimyClassRebalance_Helper_Abilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyClassRebalance\Classes\X2DownloadableContentInfo_GrimyClassRebalance.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

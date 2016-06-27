@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>006b85a6-af36-431e-acc7-2b3d55f12017</Guid>
+    <Name>GrimyFNG</Name>
+    <Description>GrimyFNG</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>GrimyFNG</AssemblyName>
+    <RootNamespace>GrimyFNG</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\GrimyFNG\" />
+    <Folder Include="Src\GrimyFNG\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComGrimyFNG.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\GrimyFNG\Classes\GrimyFNG_AcademyUnlocks.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyFNG\Classes\GrimyFNG_GameState_Project.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\GrimyFNG\Classes\X2DownloadableContentInfo_GrimyFNG.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

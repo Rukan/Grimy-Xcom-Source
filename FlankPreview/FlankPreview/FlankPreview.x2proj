@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>503682f0-89bd-4b0f-8fe1-9c08a5890bd0</Guid>
+    <Name>FlankPreview</Name>
+    <Description>FlankPreview</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>FlankPreview</AssemblyName>
+    <RootNamespace>FlankPreview</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\FlankPreview\" />
+    <Folder Include="Src\FlankPreview\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\FlankPreview_ModShaderCache.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Gotcha.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\FlankPreview\Classes\FlankPreviewFlagManager.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\FlankPreview\Classes\GotchaUnitFlagHelper.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\FlankPreview\Classes\GotchaVisibilityHelper.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\FlankPreview\Classes\X2DownloadableContentInfo_FlankPreview.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
